@@ -17,6 +17,18 @@ float thuong(int a, int b)
 {
 	return a/b;
 }
+int dientichVuong (int canh)
+{
+	return canh * canh;
+}
+float dientichTron (int bankinh)
+{
+	return bankinh * bankinh * 3,14;
+}
+int dientichChuNhat (int cd, int cr)
+{
+	return cd * cr;
+}
 int main()
 {
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
@@ -34,6 +46,12 @@ int main()
 	
 	//AnhDuy_thuong()
 	cout<<"\nThuong cua 2 so la: "<<thuong(a,b)<<"\n";
+	//Dien tich hinh tron
+	cout<<"\nDien tich hinh tron la : "<<dientichTron(a)<<"\n";
+	//Dien tich hinh vuong
+	cout<<"\nDien tich hinh vuong la : "<<dientichVuong(a,b)<<"\n";
+	//Dien tich hinh chu nhat
+	cout<<"\nDien tich hinh chu nhat la : "<<dientichChuNhat(a,b)<<"\n";
 	system("pause");
 	return 0;
 }
